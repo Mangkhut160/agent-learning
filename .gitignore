@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 压缩包 / 安装包
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.msi
+
+# 敏感信息（绝对不能 push，每个子项目里都有 .env 含 API key）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+
+# 系统垃圾
+__MACOSX/
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+*.whl
